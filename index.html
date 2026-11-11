@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+             font-family: "Inter", sans-serif;
+        }
+
+        /* HEADER */
+
+        header {
+            width: calc(100% - 10px);
+            height: 65px;
+            margin: 0 5px;
+
+            display: flex;
+            align-items: center;
+
+            background-color: #a9dce8;
+            padding: 0 52px;
+
+            border-radius: 8px 8px 0 0;
+        }
+
+        header > img:first-child {
+            width: 45px;
+            height: auto;
+        }
+
+        header ul {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            margin-left: 90px;
+        }
+
+        header li {
+            font-size: 11px;
+        }
+
+        .ring {
+            width: 27px;
+            height: 27px;
+            margin-left: auto;
+        }
+
+        header p {
+            font-size: 11px;
+            margin-left: 12px;
+        }
+
+        /* MAIN */
+
+        main {
+            width: calc(100% - 10px);
+            min-height: 453px;
+            margin: 0 5px;
+
+            display: flex;
+
+ 
+            padding-top: 35px;
+        }
+
+        /* LEFT */
+
+        .sekil {
+            width: 450px;
+            height: 430px;
+
+            position: relative;
+            margin-left: 60px;
+        }
+
+        #basliq {
+            font-size: 11px;
+            color: #52646a;
+        }
+
+        #a1 {
+            position: absolute;
+
+            width: 300px;
+            height: auto;
+
+            left: 20px;
+            top: 45px;
+
+            z-index: 2;
+        }
+
+        #a2 {
+            position: absolute;
+
+            width: 300px;
+            height: auto;
+
+            left: 120px;
+            top: 145px;
+
+            z-index: 1;
+        }
+
+        /* RIGHT */
+
+        .div2 {
+            width: 350px;
+            padding-top: 15px;
+            margin-left: -5px;
+        }
+
+        .div2 h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 27px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .div2 > p {
+            font-size: 14px;
+        }
+
+        /* COLORS */
+
+        #div2 {
+            display: flex;
+            gap: 15px;
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        #div2 li {
+            width: 31px;
+            height: 31px;
+        }
+
+        #div2 img {
+            width: 31px;
+            height: 31px;
+        }
+
+        /* DESCRIPTION */
+
+        #d2 {
+            padding: 0;
+            margin-top: 20px;
+
+       
+
+            font-size: 11px;
+            line-height: 16px;
+        }
+
+        /* NUMBERS */
+
+        .num {
+            margin-top: 20px;
+        }
+
+        .num ul {
+            display: flex;
+            justify-content: space-between;
+
+            width: 210px;
+
+            list-style: none;
+        }
+
+        .num li {
+            font-size: 10px;
+        }
+
+        .line {
+            width: 3px;
+            height: 12px;
+
+     
+
+            margin-left: 98px;
+            margin-top: 2px;
+        }
+
+        /* DELIVERY */
+
+        .delivery {
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+        }
+
+        .delivery-icon {
+            width: 35px;
+            height: 35px;
+
+            border-radius: 50%;
+
+            background-color: #c5c5c5;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 16px;
+        }
+
+        .delivery p {
+            font-size: 11px;
+            color: #52646a;
+            margin-left: 13px;
+        }
+
+        /* BUTTON */
+
+        .buttons {
+            display: flex;
+            align-items: center;
+
+            margin-top: 18px;
+            margin-left: 62px;
+        }
+
+        .buttons button {
+            width: 183px;
+            height: 46px;
+
+            border: none;
+            border-radius: 8px;
+
+            background-color: #d4d000;
+
+            color: white;
+
+            font-family: "Poppins", sans-serif;
+
+            font-size: 13px;
+            font-weight: 600;
+
+            cursor: pointer;
+        }
+
+        /* HEART */
+
+        .heart {
+            width: 35px;
+            height: 35px;
+
+            margin-left: 14px;
+
+            border-radius: 50%;
+
+            background-color: #c5c5c5;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 28px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div class="con">
+
+        <header>
+
+            <img src="Vector (8).png" alt="Adidas">
+
+            <ul>
+                <li>MENS</li>
+                <li>WOMENS</li>
+                <li>BEST</li>
+                <li>COLLECTION</li>
+            </ul>
+
+            <img class="ring"
+                src="clarity_notification-outline-badged.png"
+                alt="Notification">
+
+            <p>NOTIFICATIONS</p>
+
+        </header>
+
+
+        <main>
+
+            <div class="sekil">
+
+                <p id="basliq">
+                    ← &nbsp;&nbsp; COLOUR / SIZE / BRAND
+                </p>
+
+                <img id="a1"
+                    src="ayaqqabi1.png"
+                    alt="Adidas shoe">
+
+                <img id="a2"
+                    src="ayaqqabi2.png"
+                    alt="Adidas shoe">
+
+            </div>
+
+
+            <div class="div2">
+
+                <h1>ADIDAS</h1>
+
+                <p>$100</p>
+
+
+                <ul id="div2">
+
+                    <li>
+                        <img src="Rectangle 2.png" alt="">
+                    </li>
+
+                    <li>
+                        <img src="Rectangle 3.png" alt="">
+                    </li>
+
+                    <li>
+                        <img src="Rectangle 4.png" alt="">
+                    </li>
+
+                </ul>
+
+
+                <p id="d2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                </p>
+
+
+                <div class="num">
+
+                    <ul>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                    </ul>
+
+                    <div class="line"></div>
+
+                </div>
+
+
+                <div class="delivery">
+
+                    <div class="delivery-icon">
+                     <i class="fa-regular fa-truck"></i>
+                    </div>
+
+                    <p>
+                        Free delivery all over Pakistan
+                    </p>
+
+                </div>
+
+
+                <div class="buttons">
+
+                    <button>
+                        ADD TO CART
+                    </button>
+
+                    <div class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
